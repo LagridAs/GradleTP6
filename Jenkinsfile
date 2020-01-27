@@ -4,7 +4,6 @@ pipeline {
     stage('build') {
       steps {
         bat 'gradle build'
-        bat 'sh \'gradle build\' '
       }
     }
 
