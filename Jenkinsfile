@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        build 'build'
+        withGradle()
       }
     }
 
